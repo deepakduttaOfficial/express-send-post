@@ -1,0 +1,29 @@
+{
+  "name": "expressserver",
+  "version": "1.0.0",
+  "description": "This is a express server which send 20 post per request",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepakduttaOfficial/express-send-post.git"
+  },
+  "keywords": [
+    "iNeuron",
+    "assignment"
+  ],
+  "author": "Deepak Dutta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepakduttaOfficial/express-send-post/issues"
+  },
+  "homepage": "https://github.com/deepakduttaOfficial/express-send-post#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
